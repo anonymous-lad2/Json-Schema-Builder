@@ -1,9 +1,10 @@
 import React from 'react';
+import SchemaBuilder from './components/SchemaBuilder.tsx';
 
 function App() {
   return (
-    <div className='bg-red-500 h-screen'>
-      <h1 className='text-4xl text-blue-500'>Hello, Tailwind CSS!</h1>
+    <div className="min-h-screen">
+      <SchemaBuilder />
     </div>
   );
 }
