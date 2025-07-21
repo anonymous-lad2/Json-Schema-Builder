@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# 🧩 React JSON Schema Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An intuitive and interactive JSON Schema Builder built with **React**, **Ant Design**, and **React Hook Form**. Easily add, nest, and preview schema fields like `string`, `number`, `nested`, `array`, and more — all in real-time.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- ✅ Add fields with types (`string`, `number`, `float`, `boolean`, `objectId`, `array`, `nested`)
+- ✅ Nest fields infinitely using `nested` and `array` types
+- ✅ Live JSON preview of your schema
+- ✅ Copy generated JSON to clipboard
+- ✅ Simple, clean UI with **Ant Design**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📺 Demo
 
-### `npm test`
+[![Watch the demo](https://img.youtube.com/vi/hEeb34d6AuQ/0.jpg)](https://youtu.be/hEeb34d6AuQ)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/anonymous-lad2/Json-Schema-Builder.git
+cd react-json-schema-builder
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Install Dependencies
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Start the App
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run start
+```
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📁 Folder Structure
+  
+src/   
+├── components/   
+│   ├── SchemaBuilder.tsx   
+│   └── FieldGroup.tsx   
+├── App.js   
+├── index.js     
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+✍️ How to Use
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🚀 Follow these simple steps to build your JSON Schema interactively:  
+1. ✅ Click "Add Field" to begin creating your schema.  
+2. 📝 Enter a field name and select a type (String, Number, or Nested).  
+3. 🔁 For nested or array types, continue defining inner fields recursively.  
+4. 🧠 Watch the right panel for real-time schema generation as you build.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+✨ Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0f25b8b6-3cbf-4f8a-8059-7609cb7a663c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e0f4f26-90ff-4a8e-a911-b9ca6e178836" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4faca7f2-524a-4a07-b724-a7922218fe37" />
 
-### Analyzing the Bundle Size
+--- 
+📦 Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+. React (with Create React App)  
+. TypeScript  
+. Ant Design  
+. React Hook Form  
 
-### Making a Progressive Web App
+---
+🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! Feel free to fork this repo and open a PR with improvements or new features.
+```bash
+git checkout -b feature/your-feature
+git commit -m "✨ Add new feature"
+git push origin feature/your-feature
+```
+---
 
-### Advanced Configuration
+📬 **Contact**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Have questions or suggestions?  
+Open an issue or [send me an email](mailto:satyamseth540@gmail.com).
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
